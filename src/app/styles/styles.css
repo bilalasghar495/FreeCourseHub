@@ -3655,7 +3655,7 @@ td:last-child {
 	margin        : 0;
 	-o-object-fit : cover;
 	object-fit    : cover;
-	aspect-ratio  : 2/2.5;
+	aspect-ratio  : 4/6.0;
 	vertical-align: bottom;
 	box-shadow    : 0 60px 40px -40px rgba(0, 0, 0, 0.2);
 	position      : relative;
