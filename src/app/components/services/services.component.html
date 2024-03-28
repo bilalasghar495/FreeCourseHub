@@ -18,14 +18,15 @@
 
         <!-- # site header 
         ================================================== -->
-        <header class="s-header">
+        <header class="s-header" appMobileMenu>
 
             <div class="row s-header__inner width-sixteen-col">
 
                 <div class="s-header__block">
                     <div class="s-header__logo">
-                        <a class="logo" href="index.html">
-                            <!-- <img src="images/logo.svg" alt="Homepage"> -->
+                        <a class="logo" routerLink="/">
+                            <!-- <img src="../../../assets/images/code-Photoroom-modified.png" alt=""> -->
+
                         </a>
                     </div>
 
@@ -35,6 +36,8 @@
                 <nav class="s-header__nav">
     
                     <ul class="s-header__menu-links">
+                        
+                        <li><a routerLink="/">Home</a></li>
                         <li><a routerLink="/about">About</a></li>
                         <li class="current"><a routerLink="/service">Services</a></li>
                         <li><a routerLink="/blog">Blogs</a></li>
@@ -42,7 +45,7 @@
                     </ul> <!-- s-header__menu-links -->
 
                     <div class="s-header__contact">
-                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
+                        <a routerLink="/contact" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
                     </div> <!-- s-header__contact -->
     
                 </nav> <!-- end s-header__nav -->
@@ -75,10 +78,12 @@
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
                             <p class="lead">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias eos quas blanditiis, quos sint nostrum fugit aperiam 
-                            inventore optio itaque molestias corporis, ipsa tenetur eligendi nihil iste porro, natus culpa consequuntur? Maxime, 
-                            corporis tempore. Sed tenetur veritatis velit recusandae eum, molestiae voluptate ducimus laudantium esse illo 
-                            doloribus atque eligendi deleniti iusto. 
+                                Experience high-impact services tailored to propel your business forward. 
+                                With a focus on innovation and results, I offer a range of solutions designed
+                                to elevate your brand and drive success. From custom software development to 
+                                strategic consulting, each service is meticulously crafted to meet your unique
+                                needs and exceed your expectations. Let's collaborate to unlock the full potential
+                                of your business and achieve remarkable growth together.
                             </p>
                         </div>                       
                     </div>  <!-- pageintro -->       
@@ -90,162 +95,54 @@
                                 
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Digital Marketing</h3>
+                                        <h3 class="list-items__item-title">Websites Development</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                            I specialize in developing custom websites using HTML, CSS, and JavaScript, 
+                                            ensuring visually stunning designs and seamless user experiences. With a 
+                                            keen eye for detail and a focus on user-centric design, I create engaging 
+                                            websites that leave a lasting impression.
                                         </p>
-
-                                        <ul class="list-services">
-                                            <li>Cumque Ducimus</li>
-                                            <li>Maxime Vel</li>
-                                            <li>Eligendi Et</li>
-                                        </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Social Media Marketing</h3>
+                                        <h3 class="list-items__item-title">Web Applications</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam.
+                                            I excel in building dynamic web applications using Angular, harnessing the 
+                                            power of this robust framework to create highly responsive and feature-rich 
+                                            applications. From concept to deployment, I prioritize functionality, 
+                                            performance, and user satisfaction, ensuring that your application meets the
+                                            highest standards of quality and usability.
                                         </p>
-
-                                        <ul class="list-services">
-                                            <li>Lorem Ipsum</li>
-                                            <li>voluptatibus Earum</li>
-                                            <li>Cumque Ducimus</li>
-                                        </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Content Marketing</h3>
+                                        <h3 class="list-items__item-title">RESTful API's</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Rerum quam quos. Quibusdam quis autem voluptatibus earum vel ex error ea magni. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam.
+                                            I specialize in seamless API integrations, connecting different systems to 
+                                            streamline data exchange and enhance functionality. With expertise in handling
+                                            RESTful APIs, I ensure smooth communication between applications, enabling 
+                                            efficient data retrieval and manipulation.
                                         </p>
-
-                                        <ul class="list-services">
-                                            <li>Eaque velit</li>
-                                            <li>Asperiores</li>
-                                            <li>Cumque Ducimus</li>
-                                        </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Paid Advertising</h3>
+                                        <h3 class="list-items__item-title">Automation Testing</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Eaque velit eligendi ut magnam.Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. 
-                                        Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                            I excel in comprehensive testing methodologies, ensuring the reliability and
+                                            quality of web applications. With expertise in automation testing using Cypress,
+                                            I streamline the testing process, detecting and resolving issues efficiently.
                                         </p>
-
-                                        <ul class="list-services">
-                                            <li>Cumque Ducimus</li>
-                                            <li>Maxime Vel</li>
-                                            <li>Eligendi Et</li>
-                                        </ul>
-                                    </div>
-                                </div> <!-- end list-items__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Search Engine Optimization</h3>
-                                    </div>
-                                    <div class="list-items__item-text">
-                                        <p>
-                                        Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
-                                        </p>
-
-                                        <ul class="list-services">
-                                            <li>Cumque Ducimus</li>
-                                            <li>Maxime Vel</li>
-                                            <li>Eligendi Et</li>
-                                        </ul>
-                                    </div>
-                                </div> <!-- end list-items__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Advance Analytics</h3>
-                                    </div>
-                                    <div class="list-items__item-text">
-                                        <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam.
-                                        </p>
-
-                                        <ul class="list-services">
-                                            <li>Lorem Ipsum</li>
-                                            <li>Voluptatibus Earum</li>
-                                            <li>Cumque Ducimus</li>
-                                        </ul>
-                                    </div>
-                                </div> <!-- end list-items__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Email Marketing</h3>
-                                    </div>
-                                    <div class="list-items__item-text">
-                                        <p>
-                                        Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
-                                        </p>
-
-                                        <ul class="list-services">
-                                            <li>Doloribus</li>
-                                            <li>Mollitia</li>
-                                            <li>Eligendi Et</li>
-                                        </ul>
-                                    </div>
-                                </div> <!-- end list-items__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Conversion Rate Optimization</h3>
-                                    </div>
-                                    <div class="list-items__item-text">
-                                        <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam.
-                                        </p>
-
-                                        <ul class="list-services">
-                                            <li>Cumque Ducimus</li>
-                                            <li>Maxime Vel</li>
-                                            <li>Eligendi Et</li>
-                                        </ul>
-                                    </div>
-                                </div> <!-- end list-items__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Web Design</h3>
-                                    </div>
-                                    <div class="list-items__item-text">
-                                        <p>
-                                        Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
-                                        </p>
-
-                                        <ul class="list-services">
-                                            <li>Suscipit</li>
-                                            <li>Voluptatem</li>
-                                            <li>Eligendi Et</li>
-                                        </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
     
@@ -256,94 +153,6 @@
                     </div> <!-- end row -->
 
                </section> <!-- pagecontent -->
-
-               <section class="s-testimonials">
-
-                    <div class="s-testimonials__header row row-x-center text-center">
-                        <div class="column xl-8 lg-12">
-        
-                            <p class="text-pretitle">
-                            Testimonials
-                            </p>
-                            <h3>
-                            Reviews From Real Clients
-                            </h3>                        
-        
-                        </div>
-                    </div> <!--end s-testimonials__header -->
-
-                    <div class="row s-testimonials__content">
-                        <div class="column xl-12 testimonials">
-
-                            <div class="swiper-container testimonials__slider page-slider">
-
-                                <div class="swiper-wrapper">
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>John Rockefeller</strong>
-                                                <span>Standard Oil Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div>
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Voluptas tempore rem. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. 
-                                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>Andrew Carnegie</strong>
-                                                <span>Carnegie Steel Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div>
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Nisi dolores quaerat fuga rem nihil nostrum. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. 
-                                        Voluptas tempore rem. Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. 
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-06.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>Henry Ford</strong>
-                                                <span>Ford Motor Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div>
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>John Morgan</strong>
-                                                <span>JP Morgan & Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div> 
-                                </div> <!-- end swiper-wrapper --> 
-
-                                <div class="swiper-pagination"></div>
-
-                            </div> <!--end testimonials__slider --> 
-
-                        </div> <!-- testimonials -->
-                    </div> <!--end s-testimonials__content -->
-
-               </section> <!-- end s-testimonials -->
 
         </section> <!-- s-content-->
 
@@ -361,7 +170,7 @@
                         <p class="lead">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rem, esse doloribus sint eaque at debitis enim vitae minus expedita ratione dignissimos sit nostrum optio sequi. Ipsa at beatae quam.
                         </p>
-                        <a href="contact.html" class="btn btn--primary">Let's Work Together</a>
+                        <a routerLink="/contact" class="btn btn--primary">Let's Work Together</a>
                     </div>
 
                 </div>
@@ -443,8 +252,7 @@
                 </div>
                 <div class="column xl-6 lg-12">
                     <p class="ss-copyright">
-                        <span>© Copyright Monica 2022</span> 
-                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">ThemeWagon</a></span>
+                        <span>© Copyright 2024</span> 
                     </p>
                 </div>
 

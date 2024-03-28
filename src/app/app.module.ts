@@ -8,6 +8,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { CommonModule } from '@angular/common';
+import { MobileMenuDirective } from './directives/mobile-view-directive';
+import { PreLoaderService } from './services/pre-loader.service';
 
 @NgModule({
   declarations: [
@@ -15,13 +17,19 @@ import { CommonModule } from '@angular/common';
     AboutComponent,
     ServicesComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+
+    MobileMenuDirective,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
+  exports: [
+    MobileMenuDirective,
+  ],
   providers: [
+    PreLoaderService,
   ],
   bootstrap: [AppComponent]
 })

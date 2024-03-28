@@ -20,13 +20,13 @@
 
         <!-- # site header 
         ================================================== -->
-        <header class="s-header">
+        <header class="s-header" appMobileMenu>
             <div class="row s-header__inner width-sixteen-col">
 
                 <div class="s-header__block">
                     <div class="s-header__logo">
-                        <a class="logo" href="index.html">
-                            <!-- <img src="images/logo.svg" alt="Homepage"> -->
+                        <a class="logo" routerLink="/">
+                            <!-- <img src="../../../assets/images/code-Photoroom-modified.png" alt="Homepage"> -->
                         </a>
                     </div>
 
@@ -36,14 +36,15 @@
                 <nav class="s-header__nav">
     
                     <ul class="s-header__menu-links">
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/service">Services</a></li>
-                        <li><a href="/blog">Journal</a></li>
-                        <li class="current"><a href="/contact">Contact</a></li>
+                        <li><a routerLink="/">Home</a></li>
+                        <li><a routerLink="/about">About</a></li>
+                        <li><a routerLink="/service">Services</a></li>
+                        <li><a routerLink="/blog">Blog</a></li>
+                        <li class="current"><a routerLink="/contact">Contact</a></li>
                     </ul> <!-- s-header__menu-links -->
 
                     <div class="s-header__contact">
-                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
+                        <a routerLink="/contact" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
                     </div> <!-- s-header__contact -->
     
                 </nav> <!-- end s-header__nav -->
@@ -142,7 +143,7 @@
 
                                     <div class="contact-block">
                                         <h6>Email</h6>
-                                        <a href="mailto:#0">bilalasghar586gmail.com</a>
+                                        <a href="mailto:#0">bilalasghar&#64;586gmail.com</a>
                                     </div>
 
                                     <div class="contact-block">
@@ -236,8 +237,7 @@
                 </div>
                 <div class="column xl-6 lg-12">
                     <p class="ss-copyright">
-                        <span>© Copyright Monica 2022</span> 
-                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">ThemeWagon</a></span>
+                        <span>© Copyright 2024</span> 
                     </p>
                 </div>
 

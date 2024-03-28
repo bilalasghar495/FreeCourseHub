@@ -18,14 +18,14 @@
 
         <!-- # site header 
         ================================================== -->
-        <header class="s-header flex">
+        <header class="s-header flex" appMobileMenu >
 
             <div class="row s-header__inner width-sixteen-col">
 
                 <div class="s-header__block">
                     <div class="s-header__logo">
-                        <a class="logo" href="">
-                            <!-- <img src="../../../assets/images/logo.svg" alt="Homepage"> -->
+                        <a class="logo" routerLink="/">
+                            <!-- <img src="../../../assets/images/code-Photoroom-modified.png" alt=""> -->
                         </a>
                     </div>
 
@@ -35,6 +35,7 @@
                 <nav class="s-header__nav">
     
                     <ul class="s-header__menu-links">
+                        <li class="current"><a routerLink="/">Home</a></li>
                         <li><a routerLink="/about">About</a></li>
                         <li><a routerLink="/service">Services</a></li>
                         <li><a routerLink="/blog">Blogs</a></li>
@@ -73,11 +74,12 @@
                             meet but exceed <br> 
                             expectations.
                             </h1>
+                            <!-- <h1 class="typed-text-output d-inline">{{typedText}}</h1> -->
                         </div> <!-- s-intro__content-text -->
 
                         <div class="s-intro__content-media"> 
-                            <div class="s-intro__content-media-inner">                               
-                                <img src="../../../assets/images/profile.png"alt="">
+                            <div class="s-intro__content-media-inner ">                               
+                                <img src="../../../assets/images/profile2-modified.png"alt="">
                                 <div class="lines">                               
                                     <span></span>                                  
                                 </div>
@@ -91,7 +93,11 @@
                                 </div>
                                 <span>Scroll for more</span>
                             </a>
+                            <!-- <button class=" btn btn-primary ms-5" (click)="downloadCV()">Download CV</button> -->
+                            <button class="button-85 ms-5  " role="button">Download CV</button>
+
                         </div> <!-- s-intro__scroll-down -->
+
                         
                     </div> <!-- s-intro__content-inner -->
 
@@ -227,32 +233,7 @@
                                         </p>
                                     </div>
                                 </div> <!-- list-expertise__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">RESTful API's</h3>
-                                    </div>
-                                    <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                            I specialize in seamless API integrations, connecting different systems to 
-                                            streamline data exchange and enhance functionality. With expertise in handling
-                                            RESTful APIs, I ensure smooth communication between applications, enabling 
-                                            efficient data retrieval and manipulation.
-                                        </p>
-                                    </div>
-                                </div> <!-- list-expertise__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Automation Testing</h3>
-                                    </div>
-                                    <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                            I excel in comprehensive testing methodologies, ensuring the reliability and
-                                            quality of web applications. With expertise in automation testing using Cypress,
-                                            I streamline the testing process, detecting and resolving issues efficiently.
-                                        </p>
-                                    </div>
-                                </div> <!-- list-expertise__item -->
-
+                              
                             </div> <!-- grid-list-items -->
                         </div> <!-- end s-expertise__content-main -->
 
@@ -454,13 +435,12 @@
                 </div>
                 <div class="column xl-6 lg-12">
                     <p class="ss-copyright">
-                        <span>© Copyright Monica 2022</span> 
-                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">ThemeWagon</a></span>
+                        <span>© Copyright 2024</span> 
                     </p>
                 </div>
 
                 <div class="ss-go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top">
+                    <a class="smoothscroll ms-auto" title="Back to Top" href="#top">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
                     </a>
                 </div> <!-- end ss-go-top -->
